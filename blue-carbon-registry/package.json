@@ -1,0 +1,25 @@
+{
+  "name": "blue-carbon-registry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@openzeppelin/contracts": "^5.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "hardhat": "^2.26.3",
+    "ipfs-http-client": "^60.0.1",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.10",
+    "web3": "^4.16.0"
+  }
+}
