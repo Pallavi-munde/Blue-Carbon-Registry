@@ -1,7 +1,7 @@
 {
   "name": "blue-carbon-registry",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,5 +21,11 @@
     "multer": "^2.0.2",
     "nodemon": "^3.1.10",
     "web3": "^4.16.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "^10.8.2"
   }
 }
