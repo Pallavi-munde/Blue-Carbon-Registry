@@ -3,13 +3,13 @@ require("dotenv").config();
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
-  solidity: "0.8.19",
   networks: {
-    localhost: {
-      url: "http://127.0.0.1:8545"
-    },
-    // Add other networks as needed (testnets, mainnet)
+    goerli: {
+      url: "https://mainnet.infura.io/v3/24e6d66e19364806902d3d9ce6ac023f",
+      accounts: [process.env.PRIVATE_KEY].filter(Boolean)
+    }
   },
+  // Add other networks as needed (testnets, mainnet)
   paths: {
     sources: "./contracts",
     tests: "./tests",
@@ -17,3 +17,4 @@ module.exports = {
     artifacts: "./artifacts"
   }
 };
+
